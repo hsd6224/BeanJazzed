@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="0dp"
+    tools:context="youtube.demo.youtubedemo.Fragments.ShopOnline">
+    <ViewStub
+        android:id="@+id/stub_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:inflatedId="@+id/showlayout"
+        android:layout="@layout/my_listview"/>
+
+    <ViewStub
+        android:id="@+id/stub_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:inflatedId="@+id/showlayout"
+        android:layout="@layout/my_gridview"/>
+
+
+</RelativeLayout>
